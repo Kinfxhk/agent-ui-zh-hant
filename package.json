@@ -1,0 +1,48 @@
+{
+  "name": "agent-ui-zh-hant",
+  "version": "0.0.1",
+  "private": true,
+  "description": "KINFX M0 Traditional Chinese (Hong Kong) locale pack for DSH-compatible web GUI (zh-Hant).",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "main": "src/client.js",
+  "exports": {
+    ".": "./src/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.5"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    }
+  },
+  "files": [
+    "src",
+    "dicts/zh-Hant",
+    "glossaries",
+    "docs",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "extract": "node scripts/extract.mjs",
+    "extract:outline": "node scripts/extract.mjs --outline",
+    "embed": "node scripts/embed.mjs"
+  }
+}

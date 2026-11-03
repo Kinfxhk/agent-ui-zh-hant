@@ -1,0 +1,12 @@
+{
+  "locale": "zh",
+  "note": "Extracted Simplified Chinese source from @deepseek-ai/dsh@0.2.1-rc.5 client bundles",
+  "namespaces": {
+    "common": 41,
+    "settings": 41,
+    "chat": 191,
+    "sidebar": 6,
+    "conversation": 374,
+    "settings.locale": 1
+  }
+}

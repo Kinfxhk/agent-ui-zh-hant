@@ -1,0 +1,31 @@
+{
+  "locale": "zh-Hant",
+  "hostPin": "0.2.1-rc.5",
+  "namespaces": {
+    "common": {
+      "file": "common.json",
+      "keys": 41
+    },
+    "settings": {
+      "file": "settings.json",
+      "keys": 41
+    },
+    "chat": {
+      "file": "chat.json",
+      "keys": 191
+    },
+    "sidebar": {
+      "file": "sidebar.json",
+      "keys": 6
+    },
+    "conversation": {
+      "file": "conversation.json",
+      "keys": 374
+    },
+    "settings.locale": {
+      "file": "settings__locale.json",
+      "keys": 1
+    }
+  },
+  "generatedAt": "2026-11-03"
+}

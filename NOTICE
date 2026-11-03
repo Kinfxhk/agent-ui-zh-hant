@@ -1,0 +1,10 @@
+agent-ui-zh-hant
+Copyright (c) 2026 KINFX
+
+This product is licensed under the MIT License. See LICENSE.
+
+Not affiliated with DeepSeek, xAI, or any LLM vendor.
+Compatibility notes may mention DSH (DeepSeek Harness) as a technical host only.
+Dictionary strings extracted from a local install of @deepseek-ai/dsh@0.2.1-rc.5
+are transformed for zh-Hant / Hong Kong written Chinese; upstream copyrights remain
+with their respective owners under their licenses.
