@@ -1,5 +1,8 @@
 # agent-ui-zh-hant
 
+
+**[☕ Buy Me a Coffee](https://buymeacoffee.com/kinfxhk)** · [GitHub Sponsors](https://github.com/sponsors/Kinfxhk)
+
 **狀態：M0 scaffold（繁中語包／港式詞表）——不是完整全介面覆蓋。**
 
 KINFX 用的 **DSH 相容** Web GUI **繁體中文（香港）** locale pack：以官方 API `addLanguage`＋`register` 注入 `zh-Hant`（fallback `zh`），P0 命名空間含 `common`／`settings`／`chat`／`sidebar`（另附 `conversation`、`settings.locale`）。  
