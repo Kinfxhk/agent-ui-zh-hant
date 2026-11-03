@@ -1,0 +1,11 @@
+# dsh bundle patch: inserts this plugin into a profile's layer stack.
+#
+# With this file declared as `dsh.bundle.patch` in package.json, `dsh plugin
+# add` wires the plugin into the profile by itself — no hand-written `insert:`
+# row is needed in the profile's own cordis.patch.yml.
+#
+# No Host behaviour; client half registers zh-Hant via locale service.
+# Do NOT declare modifies: for locale — that cycles fibers.
+- insert:
+    - id: agent-ui-zh-hant
+      name: 'agent-ui-zh-hant'

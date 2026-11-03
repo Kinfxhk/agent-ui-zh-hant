@@ -1,7 +1,7 @@
 /** Auto-generated from dicts/zh-Hant — do not edit by hand; re-run scripts/embed.mjs */
 export const LOCALE_ID = "zh-Hant";
-export const LOCALE_LABEL = '繁體中文（香港）';
-export const FALLBACK = 'zh';
+export const LOCALE_LABEL = "繁體中文（香港）";
+export const FALLBACK = "zh";
 /** @type {Record<string, Record<string, string>>} */
 export const dictionaries = {
   "common": {

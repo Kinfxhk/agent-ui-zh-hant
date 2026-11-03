@@ -38,11 +38,13 @@ flowchart LR
 
 ## 一鍵安裝
 
+本插件係 **dsh bundle**（`dsh.bundle.patch` → `cordis.patch.yml` insert），`dsh plugin add` 會寫入 profile layer，唔係 plain dependency。
+
 ```bash
 # 1) 釘宿主（若未裝）
 npm i -g @deepseek-ai/dsh@0.2.1-rc.5
 
-# 2) 用本機路徑加 client 插件（發佈前）
+# 2) 用本機路徑加 bundle 插件（發佈前）
 export DSH_HOME="${DSH_HOME:-$HOME/.agent-ui-zh-hant-dsh}"
 mkdir -p "$DSH_HOME"
 dsh plugin --profile web add /absolute/path/to/agent-ui-zh-hant

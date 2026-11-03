@@ -8,18 +8,21 @@
     "node": ">=22"
   },
   "type": "module",
-  "main": "src/client.js",
+  "main": "src/index.js",
   "exports": {
-    ".": "./src/client.js",
+    ".": "./src/index.js",
+    "./client": "./src/client.browser.js",
     "./package.json": "./package.json"
   },
   "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
+      "platform": "web",
       "inject": [
         "@deepseek-ai/dsh-client-locale"
-      ],
-      "platform": "web",
-      "immediately": true
+      ]
     }
   },
   "peerDependencies": {
@@ -31,6 +34,7 @@
     }
   },
   "files": [
+    "cordis.patch.yml",
     "src",
     "dicts/zh-Hant",
     "glossaries",
